@@ -4,3 +4,4 @@ spring:
   kafka:
     consumer:
       group-id: kafka-consumer
+      bootstrap-servers: "localhost:9092"

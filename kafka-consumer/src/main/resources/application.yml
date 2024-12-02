@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: kafka-consumer
+  kafka:
+    consumer:
+      group-id: kafka-consumer

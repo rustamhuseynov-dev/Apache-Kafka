@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: kafka-producer
+server:
+  port: 9000
+

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kafka-consumer.iml" filepath="$PROJECT_DIR$/.idea/modules/kafka-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kafka-consumer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kafka-consumer.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/simple-kafka-task.iml" filepath="$PROJECT_DIR$/.idea/simple-kafka-task.iml" />
     </modules>
   </component>

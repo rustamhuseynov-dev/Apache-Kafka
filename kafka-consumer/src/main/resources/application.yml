@@ -7,6 +7,7 @@ spring:
       bootstrap-servers: "localhost:9092"
       properties:
         back.off.period: 5000
+
   datasource:
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres

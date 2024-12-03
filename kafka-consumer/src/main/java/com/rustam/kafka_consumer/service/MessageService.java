@@ -27,7 +27,6 @@ public class MessageService {
         UserDto userDto = objectMapper.readValue(data.value(), UserDto.class);
         log.info("userDto {}",userDto);
         user.setAge(userDto.getAge());
-        user.setName(userDto.getName());
         user.setSurname(userDto.getSurname());
         log.info("user receiver {}",user);
         log.info("message received {}",data.value());

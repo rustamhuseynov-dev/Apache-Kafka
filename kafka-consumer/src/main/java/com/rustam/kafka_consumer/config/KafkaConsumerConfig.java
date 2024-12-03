@@ -1,6 +1,6 @@
 package com.rustam.kafka_consumer.config;
 
-import com.rustam.kafka_consumer.handle.ExceptionHandle;
+
 import lombok.RequiredArgsConstructor;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.producer.ProducerConfig;
@@ -39,8 +39,6 @@ public class KafkaConsumerConfig {
 
     @Value("${spring.kafka.consumer.properties.back.off.period}")
     private Integer period;
-
-    //private final ExceptionHandle exceptionHandle;
 
     @Bean
     public KafkaListenerContainerFactory<?> kafkaListenerContainerFactory(){

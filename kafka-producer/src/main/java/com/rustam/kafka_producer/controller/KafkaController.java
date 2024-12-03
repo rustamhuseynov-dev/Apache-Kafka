@@ -26,7 +26,6 @@ public class KafkaController {
     @PostMapping(path = "/send")
     public void sendMessage(@RequestParam String message){
         var user = UserDto.builder()
-                .id(1L)
                 .age(15)
                 .name("Rustam")
                 .surname("Huseynov")
